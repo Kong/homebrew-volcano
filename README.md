@@ -5,13 +5,13 @@ This tap publishes the Homebrew formula for the Volcano CLI.
 ## Install
 
 ```bash
-brew install kong-volcano/tap/volcano
+brew install Kong/volcano/volcano
 ```
 
 Or tap the repository first:
 
 ```bash
-brew tap kong-volcano/tap
+brew tap Kong/volcano
 brew install volcano
 ```
 
