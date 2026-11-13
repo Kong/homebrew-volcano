@@ -1,7 +1,7 @@
 class Volcano < Formula
   desc "CLI for Volcano's hosting platform"
   homepage "https://github.com/Kong/volcano-cli"
-  version "0.76.0"
+  version "0.77.0"
   license "Apache-2.0"
 
   livecheck do
@@ -11,25 +11,25 @@ class Volcano < Formula
 
   on_macos do
     on_arm do
-      url "https://download.volcano.dev/builds/releases/download/v0.76.0/volcano-macos-arm64"
-      sha256 "8c48a4a18eb59c524566f18aaf1c06e14f2bb13e5b93e5f2f3b1887544360680"
+      url "https://download.volcano.dev/builds/releases/download/v0.77.0/volcano-macos-arm64"
+      sha256 "9dff70b4ac8011e830a25bcebea24fa86235b6bb4a455112c4b8e3c40cdb0e73"
     end
 
     on_intel do
-      url "https://download.volcano.dev/builds/releases/download/v0.76.0/volcano-macos-amd64"
-      sha256 "b9c821ef0f3fc3d3e59aef2b323cdd5edf59286f43e3265e7397934fbd50a805"
+      url "https://download.volcano.dev/builds/releases/download/v0.77.0/volcano-macos-amd64"
+      sha256 "458b0a258ba3204b61444e0a4c962e1ae250f10227fc23d47316b28493cf7737"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://download.volcano.dev/builds/releases/download/v0.76.0/volcano-linux-arm64"
-      sha256 "996dbdef5d4ee587746c29f0a31317d55f4f31938831eee9db73e4b82e707161"
+      url "https://download.volcano.dev/builds/releases/download/v0.77.0/volcano-linux-arm64"
+      sha256 "be8707e178510fceaf0da62e1f071bb12460e97b24408f0454d88ff99b16139b"
     end
 
     on_intel do
-      url "https://download.volcano.dev/builds/releases/download/v0.76.0/volcano-linux-amd64"
-      sha256 "3c3b456f34f80908e669e6a8808a3616daad50bf113dc389ff7df999ca9c9691"
+      url "https://download.volcano.dev/builds/releases/download/v0.77.0/volcano-linux-amd64"
+      sha256 "a953d046193ac8a1bb76004da1ebe6c6e334d9f361ae30e2b323d5d7d7ec537c"
     end
   end
 
